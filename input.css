@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+  @apply font-normal font-sans text-base hover:-translate-y-0.5 hover:scale-105 hover:font-bold hover:text-red-500 transition-all ease-in cursor-pointer;
+}
+
+.connector {
+  @apply font-black text-red-500;
+}
